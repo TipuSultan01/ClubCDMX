@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    tools:context="app.club.com.clubapp.MenuActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/logocdcmx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.45"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="bottom|right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btn_radio"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/radio"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_noticias"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/noticias"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_miembros"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/miembros"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_radionotas"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/radionotas"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_eventos"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/eventos"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_mensajes"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/mensajes"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/transparent"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="#000000"
+            android:layout_weight="0.55"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/mainlogo"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:weightSum="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="0.3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:weightSum="1"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageButton
+                                    android:id="@+id/btn_play"
+                                    android:layout_weight="0.3"
+                                    android:padding="15dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/img_play"
+                                    android:scaleType="centerInside"
+                                    android:background="@android:color/transparent"
+                                    />
+                                <TextView
+                                    android:layout_weight="0.7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="transmitiendo\nciencia"
+                                    android:textColor="#ffffff"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="45dp"
+                            android:orientation="vertical"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:text="subscribete •"
+                                android:textColor="#FFFFFF"
+                                android:background="@android:color/transparent"
+                                android:textSize="10dp"
+                                android:gravity="right"
+                                />
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:text="facebook •"
+                                android:textColor="#FFFFFF"
+                                android:background="@android:color/transparent"
+                                android:textSize="10dp"
+                                android:gravity="right"
+                                />
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:text="subscribete •"
+                                android:textColor="#FFFFFF"
+                                android:background="@android:color/transparent"
+                                android:textSize="10dp"
+                                android:gravity="right"
+                                />
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:text="subscribete •"
+                                android:textColor="#FFFFFF"
+                                android:background="@android:color/transparent"
+                                android:textSize="10dp"
+                                android:gravity="right"
+                                />
+                            
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

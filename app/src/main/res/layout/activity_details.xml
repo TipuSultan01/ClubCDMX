@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="app.club.com.clubapp.DetailsActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/logocdcmx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ListView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp">
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#000000"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_height="128dp">
+
+                <ImageView
+
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/clubde_logo"
+                    android:scaleType="fitStart"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/ll_top"
+                android:id="@+id/tv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="radionotas"
+                android:textSize="30dp"
+                android:textColor="#fa752c"
+                />
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/tv_text"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/btn_rn"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

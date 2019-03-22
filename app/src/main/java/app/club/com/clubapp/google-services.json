@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "995398212701",
+    "firebase_url": "https://enrique-2611a.firebaseio.com",
+    "project_id": "enrique-2611a",
+    "storage_bucket": "enrique-2611a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995398212701:android:121dbea347e23f36",
+        "android_client_info": {
+          "package_name": "app.club.com.clubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995398212701-hf3fjnevdr1d4dj27unnsp6iesuqeon7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "995398212701-hf3fjnevdr1d4dj27unnsp6iesuqeon7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAG85BVVK4AUg6l7jRP4K4gMa_dId5sQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

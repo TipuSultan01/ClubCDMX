@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="195dp">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_gravity="center_vertical"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/temp"
+        />
+    <RelativeLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/desctiption"
+            android:textColor="#FFFFFF"
+            android:text="asdf"
+            android:textSize="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+
+            android:id="@+id/btn_title"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="123"
+            android:textSize="11dp"
+            android:gravity="left|bottom"
+            android:layout_above="@+id/desctiption"
+            android:layout_marginBottom="5dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
